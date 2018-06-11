@@ -25,7 +25,7 @@ $ rails db:setup
 $ rails db:migrate
 ```
 
-Download Cloudinay config file [here](https://cloudinary.com/console/cloudinary.yml) and put file in the `config/` directory
+Download Cloudinary config file [here](https://cloudinary.com/console/cloudinary.yml) and put file in the `config/` directory
 
 Obtain Pusher credentials [here](https://dashboard.pusher.com/) and update the `config/initializers/pusher.rb` file.
 
