@@ -1,24 +1,42 @@
-# README
+# Live Blog App with Pusher + Cloudinary + Ruby
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Demo](./demo.gif)
 
-Things you may want to cover:
+## Getting Started
+Clone The Repository
+```
+$ git clone https://github.com/oreHGA/ruby-live-blog.git
+```
 
-* Ruby version
+Change directory
+```
+$ cd ruby-live-blog
+```
 
-* System dependencies
+Install dependencies
+```
+$ bundle install
+```
 
-* Configuration
+Setup up database
+```
+$ rails db:setup
 
-* Database creation
+$ rails db:migrate
+```
 
-* Database initialization
+Download Cloudinay config file [here](https://cloudinary.com/console/cloudinary.yml) and put file in the `config/` directory
 
-* How to run the test suite
+Obtain Pusher credentials [here](https://dashboard.pusher.com/) and update the `config/initializers/pusher.rb` file.
 
-* Services (job queues, cache servers, search engines, etc.)
+Run the app
+```
+$ rails server
+```
 
-* Deployment instructions
+Prerequisites
+- A basic knowledge of Ruby
 
-* ...
+Built With
+- Pusher - A Ruby gem to interact with the Pusher REST API
+- Cloudinary - Cloudinary is a media management platform for web and mobile developers
