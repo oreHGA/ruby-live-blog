@@ -1,0 +1,32 @@
+// Place all the styles related to the Post controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.post-form{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+    align-items: center;
+}
+
+input[type="submit"]{
+    background-color: #333333;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.media-upload{
+    width: 200px;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RubyLiveBlog</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <script src="https://js.pusher.com/4.1/pusher.min.js"></script>
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

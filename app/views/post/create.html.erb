@@ -1,0 +1,33 @@
+<div class="title">
+    <h1>Live Blog</h1>
+    <p>Editor View</p>
+</div>
+
+<div style="text-align:center">
+    <p><strong>Fill and submit the forrm below to create a new post</strong></p>
+
+    <form method="POST" action="/post/store" enctype="multipart/form-data" class="post-form">
+        <%= token_tag %>
+
+        <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" name="title" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="media">Post Media</label>
+            <input type="file" name="media" class="form-control media-upload">
+        </div>
+        <div class="form-group">
+            <label for="author">Post Author</label>
+            <input type="text" name="author" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="body">Post Content</label>
+            <textarea name="body" class="form-control" cols="30" rows="10"></textarea>
+        </div>
+        <div class="from-group">
+            <div><input type="submit" value="Create Post"></div>
+        </div>
+    </form>
+
+</div>
