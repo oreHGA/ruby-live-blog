@@ -2,6 +2,8 @@
 
 ![Demo](./demo.gif)
 
+[Link to article](https://pusher.com/tutorials/live-blog-ruby-rails)
+
 ## Getting Started
 Clone The Repository
 ```
