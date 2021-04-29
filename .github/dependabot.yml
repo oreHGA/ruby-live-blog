@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: cloudinary
+    versions:
+    - 1.18.1
+    - 1.19.0
+  - dependency-name: loofah
+    versions:
+    - 2.9.0
